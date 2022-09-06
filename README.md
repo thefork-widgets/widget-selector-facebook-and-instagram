@@ -1,12 +1,10 @@
-# create-link-with-widget-selector
+# Create widget selector for R groups on facebook and instagram
 
-Making a widget link with a R selector. Multiple widgets in one button on the website. 
+Multiple widgets in one button on Facebook and Instagram. 
 
-1 - Create a promoter in TFM2
 
-2 - Edit html file and fill the code with the widget links in the choosen languaje (in your code editor). You will need:
+1 - Edit html file and fill the code with the widget links in the choosen languaje (in your code editor). You will need:
 
-		Promoter number
 		R names
 		R widget links
 		Website URL
@@ -15,4 +13,4 @@ Making a widget link with a R selector. Multiple widgets in one button on the we
 
 2 - Paste the code in GA(TFM) just in one of the restaurants.
 
-3 - Choose promoter link for the installation on the website. If the widget it's installed on FB/Instagram the selector will be also displayed automatically there.
+3 - Install the reservation button of that restaurant on FB/Instagram. The selector will be displayed automatically there.
