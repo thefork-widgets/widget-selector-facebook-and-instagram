@@ -2,7 +2,6 @@
 <!-- Group selector ON/OFF -->
 <script type="text/javascript">
 
-  const prescriptorId = "247477689"; // Promoter Id created in SF
   const siteUrl = "https://www.desertspringsresort.es/"; // Logo URL
   const logoUrl = "https://www.desertspringsresort.es/wp-content/themes/desertsprings/dist/images/DSGR-white-logo_small.png"; // Website URL
   
@@ -22,7 +21,7 @@
     }
     var message = '<center><div class="tab-content"><div id="logo"><a href="'+ siteUrl +'"><img src="'+ logoUrl +'"></a></div><div id="selector"><div id="menu"><ul><li class="li-header">' + heading + '</li><li><a href="https://module.lafourchette.com/' +lang+ '/module/566185-37a7b">Club Cocodrilo</a></li><li><a href="https://module.lafourchette.com/' +lang+ '/module/565473-62f36">El Torrente</a></li></ul></div></div></div></center>'
 
-    if( (isParameterByName('p') && getParameterByName('p') == prescriptorId) || (isParameterByName('origin') && getParameterByName('origin') == 'facebook' ) ) {
+    if( (isParameterByName('origin') && getParameterByName('origin') == 'facebook' ) {
         $('.wrapper').append(message);
         console.log("Selector ON");
         $(".main").hide();
@@ -35,7 +34,7 @@
     }    
   }
 
-  //https://module.lafourchette.com/en_GB/module/56567-a3fd1?p=247477689
+
   //https://module.lafourchette.com/es_ES/module/711156-fa0e5?origin=facebook&utm_medium=integration&utm_source=instagram#/4564704/pdh
 
   function getParameterByName(name, url=window.location.href) {
