@@ -7,7 +7,6 @@ Multiple widgets in one button on Facebook and Instagram.
 
 		R names
 		R widget links
-		Website URL
 		Logo URL
 		Languages codes(es_ES, EN:GB,etc)
 
