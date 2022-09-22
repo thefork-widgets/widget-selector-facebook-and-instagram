@@ -19,9 +19,9 @@
           lang = "en_GB";
           heading = "Where would you like to book";
     }
-    var message = '<center><div class="tab-content"><div id="logo"><img src="'+ logoUrl +'"></div><div id="selector"><div id="menu"><ul><li class="li-header">' + heading + '</li><li><a href="https://module.lafourchette.com/' +lang+ '/module/566185-37a7b">Club Cocodrilo</a></li><li><a href="https://module.lafourchette.com/' +lang+ '/module/565473-62f36">El Torrente</a></li></ul></div></div></div></center>'
+    var message = '<center><div class="tab-content"><div id="logo"><img src="'+ logoUrl +'"></div><div id="selector"><div id="menu"><ul><li class="li-header">' + heading + '</li><li><a href="https://module.lafourchette.com/' +lang+ '/module/566185-37a7b">Club Cocodrilo</a></li><li><a href="https://module.lafourchette.com/' +lang+ '/module/565473-62f36">El Torrente</a></li></ul></div></div></div></center>';
 
-    if( (isParameterByName('origin') && getParameterByName('origin') == 'facebook' ) {
+    if( isParameterByName('origin') && getParameterByName('origin') == 'facebook' ) {
         $('.wrapper').append(message);
         console.log("Selector ON");
         $(".main").hide();
